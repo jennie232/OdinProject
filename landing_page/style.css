@@ -100,7 +100,7 @@ h2{
 }
 
 .quote_content{
-    background-color: #99A799;
+    background-color: rgba(153, 167, 153, 0.5);
     display: flex;
     flex-direction: column;
     padding-top: 10px;
@@ -154,4 +154,14 @@ li{
 }
 .sign-up-main > h3{
     font-size: 28px;
+    
+}
+.sign-up-main > h4{
+    margin-top: -20px;
+}
+.footer{
+    background-color: #F9F3DF;
+    padding: 30px;
+    color: #f2ba66;
+    text-align: center;
 }
