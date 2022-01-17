@@ -11,24 +11,41 @@
     <!--header for game **make things hidden until start button is clicked-->
     <div class="header">
         <h1>ROCK PAPER SCISSOR</h1>
+        <h3 id="intro">Are you ready to take on a computer? Press the button below to play! </h3>
+    </div>
+    <div id = "win-header" class="win-loss">
+        <h4 id ="win">Win:</h4>
+        <h4 id = "lose">Loss:</h4>
+        <h4 id = "tie">Tie:</h4>
     </div>
     <!--rock paper scissor buttons-->
-    <div class="button-row">
-        <div class="game-block">
-            <img id="rock" src="./images/rock.png">
-            
-        </div>
-        <div class="game-block">
-            <img id="paper" src="./images/paper.png">
-           
-        </div>
-        <div class="game-block">
-            <img id="scissor" src="./images/scissor.png">
-            
-        </div>
-        <script type='text/javascript' src="script.js">
+    <div class="main-screen">
+        <div class="button-row">
+            <div class="game-block">
+                <img id="rock" src="./images/rock.png">
 
-        </script>
+            </div>
+            <div class="game-block">
+                <img id="paper" src="./images/paper.png">
+
+            </div>
+            <div class="game-block">
+                <img id="scissor" src="./images/scissor.png">
+
+            </div>
+
+        </div>
+        <div class="start-button">
+            <button id="start">START</button>
+        </div>
+        <div class="message-board" id="message-text">
+            <span id="message-comp">Computer chose: </span>
+            <span id="message-user">You chose: </span>
+        </div>
+    </div>
+    <script type='text/javascript' src="script.js">
+
+    </script>
 </body>
 
 </html>

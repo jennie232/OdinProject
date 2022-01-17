@@ -1,3 +1,7 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
 .button-row{
     cursor:pointer;
     display: flex;  
@@ -12,9 +16,52 @@
 }
 .header{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4px;
     justify-content: center;
     font-family: "Abel", monospace;
     font-size: 30px;
-    background-color: #1A5F7A;
+    color: black;
+}
+.header > h3{
+    margin-top: -10px;
+}
+.win-loss{
+    margin-top: -13px;
+    display: flex;
+    padding-bottom:  45px;
+    justify-content: space-around;
+    font-family: "Abel", monospace;
+    font-size: 27px;
+    display: none;
+
+    
+}
+
+
+.start-button{
+    width: 100px;
+    margin: auto;
+    margin-top: 90px;   
+}
+#start{
+    border: 2px solid black;
+    padding: 16px 32px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 15px;   
+}
+#start:hover{ 
+    background-color: black;
     color: white;
+}
+.message-board{
+    font-family: "Abel", monospace;
+    font-size: 27px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-top: 40px;
 }
