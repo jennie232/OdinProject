@@ -39,14 +39,14 @@ clear.addEventListener("click", function () {
     console.log("click");
     const block = document.querySelectorAll(".grid-block");
     for (let i = 0; i < block.length; i++) {
-        block[i].style.backgroundColor = "white";
+        block[i].style.backgroundColor = "rgb(225, 224, 224)";
     }
 });
 gridColor.oninput = function(){
     
     const block = document.querySelectorAll(".grid-block");
     for (let i = 0; i < block.length; i++) {
-        block[i].style.backgroundColor = "white";
+        block[i].style.backgroundColor = "rgb(225, 224, 224)";
     }
 
     for (let i = 0; i < block.length; i++) {
