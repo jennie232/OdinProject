@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./styles.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Calculator</title>
+</head>
+
+<body>
+
+    <div class="calculator">
+
+        <div class="keyboard">
+
+            <div class="digits" id="digit">
+
+                <div class="display">
+                    <div class="display-log" id="log">
+
+                    </div>
+                    <div class="screen-number" id="screen">
+                        0
+                    </div>
+
+                </div>
+                <button class="function first back" id="back">&larr;</button>
+                <button class="function first" id="clear">C</button>
+                <button class="operator first" id="item3">+</button>
+                <button class="operator last" id="item4">-</button>
+
+
+                <button class="input num" value=7 data-key="7">7</button>
+                <button class="input num" value=8 data-key="8">8</button>
+                <button class="input num" value=9 data-key="9">9</button>
+                <button class="operator last" id="item2">&divide;</button>
+
+                <button class="input num" value=4 data-key="4">4</button>
+                <button class="input num" value=5 data-key="5">5</button>
+                <button class="input num" value=6 data-key="6">6</button>
+                <button class="operator last" id="item1">&#215;</button>
+                <button class="input num" value=1 data-key="1">1</button>
+                <button class="input num" value=2 data-key="2">2</button>
+                <button class="input num" value=3 data-key="3">3</button>
+                <button class="operator last sqrt" id="sqrt">&radic;</button>
+
+                <button class="input zero num" value=0 data-key="0">0</button>
+                <button class="input num" value=. data-key=".">.</button>
+                <button class="function equal last" id="equal">=</button>
+
+            </div>
+        </div>
+        <div class="foot">
+            <footer id="footer">
+                <a id="copyright" href="https://github.com/jennie232/OdinProject/tree/main/calculator">
+                    <img src="image/gitlogo.png" style="width: 50%">
+
+                </a>
+            </footer>
+        </div>
+    </div>
+
+
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
