@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <link href="./styles.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abel">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Shadows+Into+Light">
+
+    <title>Landing Page</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="left-page">
+            <div class="logo-card"></div>
+            <h1>WAEV &#128011;</h1>
+            <img src="./images/background.jpg" alt="waves">
+
+        </div>
+        <div class="right-page">
+            <div class="text">
+                This is not a real online service! I am just making this as a part of my
+                web development course practice stuff like web design and eventually back-end.
+                <br /> Sign up <em>now</em> to get started!<br />&nbsp;<br />
+                You <em>know</em> you have to.
+            </div>
+            <div class="sign-up">
+                <div class="sign-things">
+                    <h3>Let's do this!</h3>
+                    <form action="#0" class="main-form">
+                        <div class="first">
+                            <label for="fname">FIRST NAME</label>
+                            <input type="text" id="fname" name="fname" required>
+                        </div>
+                        <div class="last">
+                            <label for="lname">LAST NAME</label>
+                            <input type="text" id="lname" name="lname" required>
+                        </div>
+                        <div class="email">
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="phone-num">
+                            <label for="number">PHONE NUMBER</label>
+                            <input type="text" id="number" name="number" pattern="[0-9].{9,}"
+                                title="Enter at least 9 digits" required="">
+                        </div>
+                        <div class="pwd">
+                            <label for="password">PASSWORD</label>
+                            <input type="password" id="password" name="password" pattern="(?=.*\d)(?=.*[A-Z]).{8,}"
+                                required>
+                        </div>
+                        <div class="confirm-pwd">
+                            <label for="confirm">CONFIRM PASSWORD</label>
+                            <input type="password" id="confirm" name="confirm" required>
+                        </div>
+                </div>
+                <input type="submit" value="Create Account">
+                <h4 class="sub">Already have an account? <a href="#">Log in</a></h4>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
