@@ -88,5 +88,10 @@ button:hover{
 #footer{
     display: flex;
     margin-top: 10px;
+    
     align-items: center;
+}
+#copyright{
+    margin-top: 10px;
+    text-align: center;
 }
